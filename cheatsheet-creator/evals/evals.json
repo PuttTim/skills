@@ -1,0 +1,26 @@
+{
+  "skill_name": "cheatsheet-creator",
+  "evals": [
+    {
+      "id": 1,
+      "eval_name": "marketing-course-cheatsheet",
+      "prompt": "I have a folder called 'Lecture_Notes_export' with 20 PDF slide decks from my IS3150 Digital Marketing course. Can you create a 3-column cheatsheet called cheatsheet-lec.typ that covers all the lectures? Include formulas (CAC, LTV, ROAS, CTR), a funnel diagram, the Minto Pyramid, and exam-ready sentence templates at the end. Compile it to PDF.",
+      "expected_output": "A compiled multi-page PDF with color-coded sections, formula tables, visual diagrams, and exam sentences. The .typ file should compile without errors.",
+      "files": ["Lecture_Notes_export/*.pdf"]
+    },
+    {
+      "id": 2,
+      "eval_name": "existing-cheatsheet-optimisation",
+      "prompt": "I have this cheatsheet.typ file but it's too sparse — too much empty space and missing formulas. Can you compress it, add a master formula table, add visual diagrams (funnel, pyramid, flowchart), and make an index box so I can jump around when printed? Keep the same topics.",
+      "expected_output": "A denser, improved .typ file with added formula table, diagrams, index navigation, and no syntax errors after compilation.",
+      "files": ["cheatsheet.typ"]
+    },
+    {
+      "id": 3,
+      "eval_name": "data-science-course-cheatsheet",
+      "prompt": "My CS3244 Machine Learning course has lecture slides in PDFs. I need a 2-column study guide with all the algorithms, complexity tables, decision trees for model selection, and a formula bank (entropy, gradient descent, accuracy, precision, recall, F1). Add exam answer templates for 'which model to choose' questions.",
+      "expected_output": "A compiled PDF with algorithm comparison tables, complexity notation, model-selection decision tree, formula bank, and generic answer frames for open-ended ML exam questions.",
+      "files": ["lectures/*.pdf"]
+    }
+  ]
+}
