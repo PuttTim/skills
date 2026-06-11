@@ -16,4 +16,5 @@ npx skills@latest add putttim/skills
 | **[cheatsheet-optimiser](cheatsheet-optimiser/)** | Iteratively optimize cheatsheets through coverage checks, layout compression, readability tuning, and quick-reference additions. |
 | **[commit](commit/)** | Analyze the working tree and commit changes as small, atomic, conventional commits. Never pushes. |
 | **[commit-pr](commit-pr/)** | Commit atomically, then create or update a pull request for the current branch. |
+| **[design-system-report](design-system-report/)** | Generate a self-contained HTML design system report from a frontend codebase, extracting colors, typography, components, and tokens. |
 | **[diff-main-summary](diff-main-summary/)** | Generate a markdown PR-review summary diffing the current branch against `main`. |
