@@ -18,3 +18,4 @@ npx skills@latest add putttim/skills
 | **[commit-pr](commit-pr/)** | Commit atomically, then create or update a pull request for the current branch. |
 | **[design-system-report](design-system-report/)** | Generate a self-contained HTML design system report from a frontend codebase, extracting colors, typography, components, and tokens. |
 | **[diff-main-summary](diff-main-summary/)** | Generate a markdown PR-review summary diffing the current branch against `main`. |
+| **[playwright-agent-testing](playwright-agent-testing/)** | End-to-end acceptance testing for a feature branch — diffs against main, builds a test plan, runs it in the browser, and writes scored results. |
