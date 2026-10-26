@@ -19,3 +19,4 @@ npx skills@latest add putttim/skills
 | **[design-system-report](design-system-report/)** | Generate a self-contained HTML design system report from a frontend codebase, extracting colors, typography, components, and tokens. |
 | **[diff-main-summary](diff-main-summary/)** | Generate a markdown PR-review summary diffing the current branch against `main`. |
 | **[playwright-agent-testing](playwright-agent-testing/)** | End-to-end acceptance testing for a feature branch — diffs against main, builds a test plan, runs it in the browser, and writes scored results. |
+| **[slides-like-me](slides-like-me/)** | Create restrained presentations in Slidev or editable PowerPoint, with personal design preferences and optional private local context. |
